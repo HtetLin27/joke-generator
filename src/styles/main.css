@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(69, 78, 75);
+}
+.App{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+}
+
+.btn{
+    padding: 15px;
+    background:#163faf ;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    color:white;
+    font-size: 16px;
+    transition: background-color .5s;
+
+    &:hover{
+        background-color: #060853;
+    }
+}
+
+
+
+
+
+
+@import 'joke.css'

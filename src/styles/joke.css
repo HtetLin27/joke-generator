@@ -1,0 +1,11 @@
+.joke-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.joke{
+    color: white;
+    font-size: 18px;
+}
